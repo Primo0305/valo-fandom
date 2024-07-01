@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FANDOM</title>
+    <link rel="stylesheet" href="ValorantMain.Css">
+    <script src="https://kit.fontawesome.com/f6feb04427.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+      <div class="navbar"> 
+        <nav> 
+            <div class="navbar">
+              <a href="https://emoji.gg/emoji/7053-vct-red-logo"><img src="https://cdn3.emoji.gg/emojis/7053-vct-red-logo.png" width="64px" height="64px" alt="VCT_Red_Logo"></a>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About </a></li>
+                <li><a href="#service">Information </a></li>
+                <li><a href="#agents">Gameplay </a></li>
+            </ul>
+          </div>
+         </nav>
+      </div>
+    </div>
+</div>
+
+<div class="main">
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col1">
+                <img src="valorantskiss.jpg" alt="">
+            </div>
+            <div class="col2">
+                <h1 class="subtitle">ABOUT</h1> <br>
+                <p>Valorant is a free-to-play multiplayer tactical first-person shooter developed and published by Riot Games. Launched in 2020, Valorant quickly gained popularity for its blend of precise gunplay, diverse character abilities, and strategic team-based gameplay. <br>
+
+                    Set in a near-future Earth, Valorant pits teams of attackers and defenders against each other in round-based matches. Players choose from a diverse cast of agents, each with unique abilities that can sway the tide of battle. Whether it's deploying smokescreens, summoning walls, or unleashing devastating ultimates, mastering these abilities is key to victory. <br> <br>
+                    
+                    Combining the precise aiming mechanics of classic shooters with the diverse tactics of modern hero-based games, Valorant offers a high-stakes, skill-intensive experience. With its emphasis on teamwork, communication, and strategic thinking, every match presents new challenges and opportunities for players to outsmart their opponents. <br> <br>
+                    
+                    Valorant has quickly become a prominent title in the esports scene, with professional tournaments drawing in millions of viewers worldwide. Its constantly evolving meta and regular updates ensure that players are always discovering new strategies and refining their skills. <br><br>
+                    
+                    Join millions of players around the globe and experience the adrenaline-pumping action of Valorant. Whether you're a seasoned veteran or a newcomer looking to prove your worth, Valorant offers an exhilarating gaming experience like no other.</p> <br><br>
+            </div>
+        </div>
+    </div> 
+</div>
+
+<div id="service">
+    <div class="container">
+        <h1 class="subtitle">GAME INFORMATION</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-person"></i> <br>
+                <h2> AGENTS </h2><br>
+                <p> Agents are the playable characters in VALORANT, Each agent serves as a different class with four abilities.</p> <br>
+                <a href="http://127.0.0.1:5500/FANDOM.html#"><u>Learn More</u></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-map"></i> <br>
+                <h2> MAPS </h2> <br>
+                <p> Standard play maps feature a spawn area for each team, Objective sites where the spike is to be planted.  </p> <br>
+                <a href="https://www.programiz.com/java-programming/online-compiler/"><u>Learn More</u></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gun"></i></i>
+                <h2> GUNS </h2> <br>
+                <p> Sidearms consists of pistols, while primaries include SMGs, shotguns, rifles, sniper rifles, and machine guns. </p> <br>
+                <a href="https://www.programiz.com/cpp-programming/online-compiler/"><u>Learn More</u></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-share-from-square"></i>
+                <h2> SOCIAL MEDIA </h2> <br>
+                <a href="https://www.facebook.com/VALORANTph/?brand_redir=103808897687593"><b class="fa-brands fa-facebook"></b></a> 
+                <a href="https://www.instagram.com/valorant/"><b class="fa-brands fa-square-instagram"></b></a>
+                <a href="https://playvalorant.com/en-sg/"><b class="fa-solid fa-gamepad"></b></a>
+                
+                <br>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><u>Learn More</u></a>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+
+<div id="agents">
+    <div class="container">
+      <div class="image-container">
+        <h1 class="subtitle">GAMEPLAY</h1> <br>
+        <a href="ValorantAgent.html" class="image-link">
+          <img src="./agents/jetsu.jpg" alt="Image 1">
+        </a>
+        <a href="Guns.html" class="image-link">
+          <img src="/guns/guns.avif" alt="Image 2">
+        </a>
+        <a href="Maps.html" class="image-link">
+          <img src="./maps/map.jpg" alt="Image 3">
+        </a>
+      </div>
+    </div>
+  </div>
+   
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+ 
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+
+</body>
+</html>

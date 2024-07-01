@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+}
+
+header {
+    background-color: #c0392b; /* Red header */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #222; /* Dark gray section background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.section-content {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #c0392b; /* Red footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.abilities {
+    width: 100%;
+    text-align: center; /* Center content horizontally */
+}
+
+.section-content {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.skill {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333; /* Dark gray skill background */
+    border-radius: 5px;
+    flex-grow: 1;
+    text-align: center;
+    margin-right: 10px; /* Add margin between skills */
+}
+
+.skill:last-child {
+    margin-right: 0; /* Remove margin for the last skill */
+}
+
+.skill img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.skill-description {
+    display: none;
+    padding: 10px;
+    background-color: #444; /* Dark gray skill description background */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+p {
+    color: #fff; /* White text color */
+}

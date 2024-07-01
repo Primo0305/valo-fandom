@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breach - Valorant Agent</title>
+    <link rel="stylesheet" href="spare.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Breach - The Bionic Swede</h1>
+        </div>
+    </header>
+    <main>
+        <h2>Biography</h2>
+        <section class="bio">
+            <div class="section-content">
+                <p>A criminal from Sweden, Erik Torsten was set to be convicted along with the rest of his family for their crimes. As he was a double congenital amputee however, the judge was pitiful and lenient towards him, <br>
+                    giving him a smaller sentence that soon allowed Erik to return to his old ways. Building himself his own mechanical arms to use, Erik would hit back with his own criminal assignments, becoming so notorious <br>
+                    for the terrible things he had done that he eventually had to go into hiding and effectively exile himself from his home. During these times, he also encountered the young Brazilian Tayane Alves, who worked <br>
+                    alongside him for a while and provided some major upgrades to his arms, resulting in the carbon-steel titanium-plating version that he uses to this day. <br> <br>
+
+                    Later approached to become a VALORANT agent, Torsten accepted the offer though his induction was not a smooth affair. Leaving behind his criminal life in line with VP procedure, his records were sealed <br> 
+                    and he became the Protocol's thirteenth agent, "Breach". Despite now serving for the secret organization with more dignified actions however, the consequences of his criminal past forever remain, <br> 
+                    leaving him a man that, for all he does now, can still never truly return home.</p>
+            </div>
+        </section>
+        <h2>Abilities</h2>
+        <section class="abilities">
+            <div class="section-content">
+
+                <div class="skills-container">
+                    <div class="skill" onclick="toggleDescription('ability1')">
+                        <img src="bskill1.png" alt="Ability 1">
+                        <div>Ability 1</div>
+                    </div>
+                    <div class="skill" onclick="toggleDescription('ability2')">
+                        <img src="bskill2.png" alt="Ability 2">
+                        <div>Ability 2</div>
+                    </div>
+                    <div class="skill" onclick="toggleDescription('ability3')">
+                        <img src="bskill3.png" alt="Ability 3">
+                        <div>Ability 3</div>
+                    </div>
+                    <div class="skill" onclick="toggleDescription('ultimate')">
+                        <img src="bskill4.png" alt="Ultimate Ability">
+                        <div>Ultimate Ability</div>
+                    </div>
+                </div>
+                
+                <div id="ability1-description" class="skill-description">
+                    This is the description for Ability 1.
+                </div>
+                
+                <div id="ability2-description" class="skill-description">
+                    This is the description for Ability 2.
+                </div>
+                
+                <div id="ability3-description" class="skill-description">
+                    This is the description for Ability 3.
+                </div>
+                
+                <div id="ultimate-description" class="skill-description">
+                    This is the description for the Ultimate Ability.
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <hr>
+            <p>Valorant Agent Information</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleDescription(skill) {
+            var description = document.getElementById(skill + "-description");
+            if (description.style.display === "block") {
+                description.style.display = "none";
+            } else {
+                var descriptions = document.getElementsByClassName("skill-description");
+                for (var i = 0; i < descriptions.length; i++) {
+                    descriptions[i].style.display = "none";
+                }
+                description.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
